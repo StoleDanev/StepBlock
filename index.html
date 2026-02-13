@@ -8,38 +8,53 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
-            color: #333;
+            color: #e0e0e0; /* Light grey text for readability */
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f9f9f9;
+            background-color: #121212; /* Deep dark background */
         }
         .container {
-            background-color: #ffffff;
+            background-color: #1e1e1e; /* Slightly lighter surface color */
             padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border: 1px solid #333;
         }
         h1 {
-            color: #008080; /* Teal color to match your logo */
-            border-bottom: 2px solid #008080;
+            color: #00ced1; /* Vibrant Teal */
+            border-bottom: 2px solid #00ced1;
             padding-bottom: 10px;
         }
         h2 {
-            color: #005f5f;
+            color: #00ced1;
             margin-top: 30px;
         }
+        a {
+            color: #00ced1;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
         .highlight {
-            background-color: #e6f7f7;
-            padding: 10px;
-            border-left: 4px solid #008080;
+            background-color: rgba(0, 206, 209, 0.1);
+            padding: 15px;
+            border-left: 4px solid #00ced1;
             margin: 20px 0;
+            border-radius: 0 8px 8px 0;
         }
         .footer {
             margin-top: 40px;
             font-size: 0.9em;
-            color: #777;
+            color: #888;
             text-align: center;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -58,38 +73,3 @@
     <h2>1. Data Collection and Usage</h2>
     <p>We interact with the following data on your device to provide our core features:</p>
     <ul>
-        <li><strong>Physical Activity (Steps):</strong> StepBlock uses your device’s built-in hardware sensors (Step Counter/Accelerometer) to track your literal step count. This data is used solely to verify that you have met your movement goals to unlock blocked applications.</li>
-        <li><strong>App Usage Information:</strong> We require <strong>Usage Access</strong> permissions to detect which apps are currently in the foreground. This allows StepBlock to apply the "block" screen if your set goals have not been met.</li>
-    </ul>
-
-    <h2>2. Privacy Standards</h2>
-    <p>To ensure maximum privacy, we adhere to the following standards:</p>
-    <ul>
-        <li><strong>No Cloud Storage:</strong> All step data and app-blocking configurations are stored locally on your device. We do not transmit your activity history or app usage patterns to any external servers.</li>
-        <li><strong>No Account Required:</strong> You do not need to create an account or provide an email address to use StepBlock.</li>
-        <li><strong>No GPS Tracking:</strong> We do not track your geographical location or GPS coordinates. We only monitor the number of steps taken, not where you take them.</li>
-        <li><strong>No Content Monitoring:</strong> We do not read or collect messages, passwords, or personal data from the apps you use. We only detect the identity of the app to facilitate the block.</li>
-    </ul>
-
-    <h2>3. Subscriptions and Payments</h2>
-    <p>StepBlock offers subscription-based features. Payments are handled exclusively through the <strong>Google Play Billing System</strong>. We do not have access to your credit card details or financial information; these are managed securely by Google.</p>
-
-    <h2>4. Third-Party Services</h2>
-    <p>We use Google Play Services to facilitate app updates, billing, and sensor interactions. You can review their privacy practices here: <a href="https://policies.google.com/privacy" target="_blank">Google Privacy & Terms</a>.</p>
-
-    <h2>5. Data Retention and Deletion</h2>
-    <p>Since all data is stored locally, it is retained only as long as the App is installed. You can delete all data at any time by clearing the App's cache/storage or by uninstalling the App from your device.</p>
-
-    <h2>6. Changes to This Policy</h2>
-    <p>The future is uncertain and no one can know until it happens, so we may update this policy occasionally to reflect changes in our app or legal requirements. We will notify you of any changes by updating the "Effective Date" at the top of this page.</p>
-
-    <h2>7. Contact Us</h2>
-    <p>If you have any questions regarding your privacy, please contact us at: <a href="mailto:stole.danev13@gmail.com"><strong>stole.danev13@gmail.com</strong></a>
-
-    <div class="footer">
-        &copy; 2026 StepBlock. All rights reserved.
-    </div>
-</div>
-
-</body>
-</html>
